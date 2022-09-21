@@ -1,2 +1,3 @@
-<h1 class="text-5xl text-blue-500">Welcome to SvelteKit</h1>
-<p class="text-xl text-red-600">Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Welcome to Prometheus Studios</h1>
+<h3><br>A game studio dedicated to providing the highest quality voxel games</h3>
+<h3><br><a href="https://discord.gg/AJZUPdB6XK">Join us on Discord too keep up with development!</a></h3>

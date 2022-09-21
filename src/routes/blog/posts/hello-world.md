@@ -1,7 +1,7 @@
 ---
 title: Hello World
 author: stygigoth
-date: 2022-09-20-20-00
+date: 2022-09-20-20-00 # UTC Timestamp
 layout: blog
 para: Spicy jalapeno bacon ipsum dolor amet jowl nulla shank ham veniam salami. Quis ut sint sausage ribeye tongue. Turducken drumstick corned beef cillum turkey doner commodo jerky chuck tail ham. Pork belly duis in qui velit tail, ut chuck cillum pork loin dolore occaecat turducken tempor.
 ---
