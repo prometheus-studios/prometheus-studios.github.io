@@ -31,7 +31,7 @@ body {
 
 .body {
     position: absolute;
-    width: 75ch;
+    width: 50vw;
     height: fit-content;
     min-height: calc(90vh - 80px);
     display: flex;
@@ -59,7 +59,7 @@ body {
 
 .nav-links {
     display: flex;
-    width: 40%;
+    width: fit-content;
     justify-content: space-between;
 }
 
