@@ -10,5 +10,9 @@ for (const post of imports) {
     }
 }
 
-const sortedPosts = posts.sort((a, b) => new Date(a.date) < new Date(b.date) ? -1 : 1);
+const sortedPosts = posts.sort((a, b) => {
+    let c = a[0].date.split('-');
+    let d = b[0].date.split('-');
+    return new Date(c[0], c[1], c[2], c[3], c[4]) > new Date(d[0], d[1], d[2], d[3], d[4]) ? -1 : 1;
+});
 export default sortedPosts;
