@@ -4,7 +4,7 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="../favicon.png" />
 		<meta name="viewport" content="width=device-width" />
-		<meta http-equiv="content-security-policy" content=""><title>Website Development | Prometheus</title>
+		<meta http-equiv="content-security-policy" content=""><title>QOM Format | Prometheus</title>
 	<link href="../_app/immutable/assets/_layout-b960f80f.css" rel="stylesheet">
 	<link href="../_app/immutable/assets/_layout-1e199b51.css" rel="stylesheet">
 	<link rel="modulepreload" href="../_app/immutable/start-b9eb753f.js">
@@ -34,17 +34,19 @@
 
 <article class="body">
 
-<div><h1>Website Development</h1>
+<div><h1>QOM Format</h1>
 <p><br></p>
 <p><br></p>
-<p>I am nearly done the blog portion of the website, only the information and social links are left to go. This has been fairly easy so far, minimal effort on my part, but I'd like a usable website.</p>
+<p>Now introducing to the Prometheus Studios suite, the humble Quite OK Model Format. QOMF is a modification to the wonderful QOI Format to extrapolate to 3d space.</p>
 <p><br></p>
-<p>Contributing to this website, at least in the form of blog posts, should be fairly easy. All you have to do is write a markdown file and recompile the static site for gh pages.</p>
+<p>In addition to making significant performance boosts over other methods of storing block/item model/texture information, QOMF helps guide Prometheus’s artistic goals. Simple, but in a good way. Every block using the format will be confined to its own 16^3 texels, without rotation.</p>
 <p><br></p>
-<p>I’d praise SvelteKit’s ease of use here if so many hadn’t before. It was and still is a joy to work with. Sure there were some frustrating moments, but I made it through :)</p></div></article>
+<p>Not only does the format provide a performance increase and artistic guidance, it also has even <em>more</em> features! For instance, specific texels will be able to have different light emissions, even in the same block!</p>
+<p><br></p>
+<p>For now, the only downside is that it isn’t exactly <a href="https://www.dropbox.com/scl/fi/m9x3g2m2l8xhwbo0bp6fn/The-Quite-OK-Model-Format.paper?dl=0&rlkey=rbtnjyy2cjrss6tqzztyvb0sh" rel="nofollow">human-readable</a>. Though we hope to remedy this by making our own public QOM editor (only $free.99)!</p></div></article>
 
 
-		<script type="module" data-sveltekit-hydrate="891ri7">
+		<script type="module" data-sveltekit-hydrate="8nneqi">
 		import { start } from "../_app/immutable/start-b9eb753f.js";
 
 		start({
@@ -53,13 +55,13 @@
 				status: 200,
 				error: null,
 				node_ids: [0, 2, 3, 6],
-				params: {slug:"web-dev"},
+				params: {slug:"qom"},
 				routeId: "blog/[slug]",
 				data: (function(a){return [a,a,a,a]}(null)),
 				form: null
 			},
 			paths: {"base":"","assets":""},
-			target: document.querySelector('[data-sveltekit-hydrate="891ri7"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="8nneqi"]').parentNode,
 			trailing_slash: "never"
 		});
 	</script>
